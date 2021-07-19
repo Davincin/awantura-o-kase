@@ -1,0 +1,417 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Kanit', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../img/money.jpg");
+  color: #fff;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: -1;
+}
+
+.container {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 8rem;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.header .container {
+  height: 100%;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header__title {
+  font-size: 3rem;
+}
+
+.header__title i {
+  padding-right: 2rem;
+}
+
+.header__github-link {
+  color: #ffffff;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.header__github-link i {
+  padding-right: .6rem;
+  color: #3676d6;
+  transition: color .3s;
+}
+
+.header__github-link:hover {
+  color: #3676d6;
+}
+
+.header__github-link:hover i {
+  color: #fff;
+}
+
+.game {
+  width: 100%;
+  height: calc(100vh - 8rem);
+}
+
+.game .container {
+  height: 100%;
+}
+
+.game__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.game__question-panel, .game__fields-panel {
+  display: flex;
+  width: 100%;
+  height: 240px;
+}
+
+.game__category-box, .game__question-box, .game__jackpot-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+.game__category-box {
+  border-right: 1px solid #ffffff6c;
+}
+
+.game__question-box {
+  width: 70%;
+  padding: 0 2rem;
+}
+
+.game__category-title, .game__question-title {
+  font-size: 3rem;
+}
+
+.game__category-title i, .game__question-title i {
+  padding-right: 1.5rem;
+  color: #3bacbb;
+}
+
+.game__category {
+  font-size: 4rem;
+}
+
+.game__question {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.game__question-btns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.game__category-btn, .game__question-btn, .game__good-answer-btn, .game__wrong-answer-btn, .game__btn {
+  padding: 1.2rem 2.4rem;
+  border: none;
+  background-color: #3676d6;
+  font-size: 2.4rem;
+  border-radius: 0.2rem;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color .4s, color .4s;
+}
+
+.game__category-btn:hover, .game__question-btn:hover, .game__good-answer-btn:hover, .game__wrong-answer-btn:hover, .game__btn:hover {
+  background-color: #1e4683;
+}
+
+.game__category-btn--disabled, .game__question-btn--disabled, .game__good-answer-btn--disabled, .game__wrong-answer-btn--disabled, .game__btn--disabled {
+  color: #505050ed;
+  background-color: #6a6f77;
+  cursor: default;
+}
+
+.game__category-btn--disabled:hover, .game__question-btn--disabled:hover, .game__good-answer-btn--disabled:hover, .game__wrong-answer-btn--disabled:hover, .game__btn--disabled:hover {
+  background-color: #6a6f77;
+}
+
+.game__fields-box {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.game__jackpot-box {
+  justify-content: start;
+  background-color: #000000e8;
+  border: none;
+}
+
+.game__jackpot-title, .game__auction-title, .game__balance-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  padding: 1rem 0;
+  border-bottom: 1px solid transparent;
+  font-size: 3rem;
+  background-color: #000000d3;
+  text-transform: uppercase;
+}
+
+.game__jackpot {
+  font-size: 5.4rem;
+}
+
+.game__auction-box, .game__balance-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+}
+
+.game__auction-title, .game__balance-title {
+  height: 30%;
+}
+
+.game__auction-fields, .game__balance-fields {
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+
+.game__auction-field-box {
+  display: flex;
+  width: 80%;
+}
+
+.game__auction-field, .game__balance-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  border: none;
+  font-size: 5rem;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  outline: none;
+  transition: background-color .3s, color .3s;
+}
+
+.game__auction-field--blue, .game__balance-field--blue {
+  background-color: #141b88ab;
+}
+
+.game__auction-field--green, .game__balance-field--green {
+  background-color: #1e991ec5;
+}
+
+.game__auction-field--yellow, .game__balance-field--yellow {
+  background-color: #afc015bb;
+}
+
+.game__auction-field--disabled, .game__balance-field--disabled {
+  color: #000;
+  background-color: #7d848fd2;
+  cursor: default;
+}
+
+.game__auction-field-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: aqua;
+}
+
+.game__auction-field-button-up, .game__auction-field-button-down {
+  height: 50%;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  outline: none;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.game__auction-field-button-up:hover, .game__auction-field-button-down:hover {
+  background-color: #362d2d;
+}
+
+.game__auction-field-button-down {
+  border-top: 1px solid #ffffff73;
+}
+
+.game__buttons-panel {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.game__buttons-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.answer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40rem;
+  transition: top .4s, opacity .4s;
+  z-index: 1000;
+}
+
+.answer--hidden {
+  top: -120%;
+  opacity: 0;
+}
+
+.answer .container {
+  height: 100%;
+}
+
+.answer__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.answer__text {
+  font-size: 3rem;
+}
+
+.answer__btn {
+  padding: .8rem 1.4rem;
+  border: none;
+  outline: none;
+  font-size: 2.4rem;
+  background-color: #3676d6;
+  border-radius: 0.2rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.answer__btn i {
+  font-size: 3rem;
+}
+
+.answer__btn:hover {
+  background-color: #1e4683;
+}
+
+.start {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #000;
+  transition: left .3s, opacity .3s, visibility .5s;
+  z-index: 10000;
+}
+
+.start .container {
+  height: 100%;
+}
+
+.start__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.start__small-txt {
+  font-size: 2rem;
+}
+
+.start__info-title {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  display: none;
+}
+
+.start__info-list {
+  border-color: red;
+  margin-bottom: 8rem;
+  display: none;
+}
+
+.start__info-list-item {
+  font-size: 3rem;
+}
+
+.start__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.start__play-btn {
+  display: none;
+}
+
+.start--hidden {
+  left: 110%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (min-width: 992px) {
+  .start__small-txt {
+    display: none;
+  }
+  .start__info-title, .start__info-list, .start__play-btn {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */

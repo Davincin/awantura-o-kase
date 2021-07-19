@@ -1,0 +1,37 @@
+[
+    {
+        "qestionCategoryId": "4",
+        "questionCategoryName": "Motoryzacja",
+        "questionId": "4.0",
+        "questionText": "Samochody jakiej popularnej marki produkowane są w Stuttgarcie?",
+        "questionAnswer": "Mercedes-Benz."
+    },
+    {
+        "qestionCategoryId": "4",
+        "questionCategoryName": "Motoryzacja",
+        "questionId": "4.1",
+        "questionText": "Który kraj wydobywa najwięcej ropy naftowej?'",
+        "questionAnswer": "Arabia Saudyjska."
+    },
+    {
+        "qestionCategoryId": "4",
+        "questionCategoryName": "Motoryzacja",
+        "questionId": "4.2",
+        "questionText": "Który model Toyoty sprzedał się dotychczas w największej liczbie egzamplarzy?",
+        "questionAnswer": "Corolla."
+    },
+    {
+        "qestionCategoryId": "4",
+        "questionCategoryName": "Motoryzacja",
+        "questionId": "4.3",
+        "questionText": "Jak nazywa się napęd na cztery koła stosowanyt w BMW?",
+        "questionAnswer": "X-Drive."
+    },
+    {
+        "qestionCategoryId": "4",
+        "questionCategoryName": "Motoryzacja",
+        "questionId": "4.4",
+        "questionText": "W którym roku rozpoczęto produkcje Volvo S40?",
+        "questionAnswer": "W roku 1995."
+    }
+]

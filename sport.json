@@ -1,0 +1,37 @@
+[
+    {
+        "qestionCategoryId": "0",
+        "questionCategoryName": "Sport",
+        "questionId": "0.1",
+        "questionText": "W którym roku Robert Lewandowski pobił rekord Gerda Mullera?",
+        "questionAnswer": "W 2021 roku."
+    },
+    {
+        "qestionCategoryId": "0",
+        "questionCategoryName": "Sport",
+        "questionId": "0.2",
+        "questionText": "Ile razy Lionel Messi zdobył 'Złotą Piłkę'?",
+        "questionAnswer": "6 razy."
+    },
+    {
+        "qestionCategoryId": "0",
+        "questionCategoryName": "Sport",
+        "questionId": "0.3",
+        "questionText": "Kto jest najleszym strzelcem wszechczasów polskiej Ekstraklasy?",
+        "questionAnswer": "Tomasz Frankowski."
+    },
+    {
+        "qestionCategoryId": "0",
+        "questionCategoryName": "Sport",
+        "questionId": "0.4",
+        "questionText": "Jaka maksymalna liczba zmian obowiązywała podczas EURO 2020?",
+        "questionAnswer": "5 zmian."
+    },
+    {
+        "qestionCategoryId": "0",
+        "questionCategoryName": "Sport",
+        "questionId": "0.5",
+        "questionText": "Podaj drużynę z największą liczbą mistrzowstw ligi NBA.",
+        "questionAnswer": "Boston Celtics."
+    }
+]

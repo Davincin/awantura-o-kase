@@ -1,0 +1,37 @@
+[
+    {
+        "qestionCategoryId": "2",
+        "questionCategoryName": "Świat zwierząt",
+        "questionId": "2.0",
+        "questionText": "Jak nazywa się największy kot europejski żyjący w Polsce?",
+        "questionAnswer": "Ryś."
+    },
+    {
+        "qestionCategoryId": "2",
+        "questionCategoryName": "Świat zwierząt",
+        "questionId": "2.1",
+        "questionText": "Ile par nóg posiada Skorpion?",
+        "questionAnswer": "4 pary."
+    },
+    {
+        "qestionCategoryId": "2",
+        "questionCategoryName": "Świat zwierząt",
+        "questionId": "2.2",
+        "questionText": "Jakie zwierze zapada na zimę w sen zimowy?",
+        "questionAnswer": "Niedźwiedź."
+    },
+    {
+        "qestionCategoryId": "2",
+        "questionCategoryName": "Świat zwierząt",
+        "questionId": "2.3",
+        "questionText": "Czym oddychają ryby?",
+        "questionAnswer": "Skrzelami."
+    },
+    {
+        "qestionCategoryId": "2",
+        "questionCategoryName": "Świat zwierząt",
+        "questionId": "2.4",
+        "questionText": "Największy ssak lądowy to?",
+        "questionAnswer": "Słoń afrykański."
+    }
+]

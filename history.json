@@ -1,0 +1,37 @@
+[
+    {
+        "qestionCategoryId": "3",
+        "questionCategoryName": "Historia",
+        "questionId": "3.0",
+        "questionText": "W którym roku miał miejsce atak na Word Trade Center?",
+        "questionAnswer": "W 2001 roku."
+    },
+    {
+        "qestionCategoryId": "3",
+        "questionCategoryName": "Historia",
+        "questionId": "3.1",
+        "questionText": "W którym roku doszło do pierwszego lądowania ludzi na księżycu?",
+        "questionAnswer": "W roku 1969."
+    },
+    {
+        "qestionCategoryId": "3",
+        "questionCategoryName": "Historia",
+        "questionId": "3.2",
+        "questionText": "Która marka wyprodukowała pierwszy smartfon wyposażony w system operacyjny Android?",
+        "questionAnswer": "HTC."
+    },
+    {
+        "qestionCategoryId": "3",
+        "questionCategoryName": "Historia",
+        "questionId": "3.3",
+        "questionText": "W którym roku miała miejsce Bitwa pod Grunwaldem?",
+        "questionAnswer": "W roku 1410."
+    },
+    {
+        "qestionCategoryId": "3",
+        "questionCategoryName": "Historia",
+        "questionId": "3.4",
+        "questionText": "Kto był pierwszym królem Polski?",
+        "questionAnswer": "Bolesław Chrobry."
+    }
+]

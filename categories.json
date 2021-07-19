@@ -1,0 +1,27 @@
+[
+    {
+        "categoryId": "0",
+        "categoryName": "Sport",
+        "categorySrc": "sport"
+    },
+    {
+        "categoryId": "1",
+        "categoryName": "Muzyka",
+        "categorySrc": "music"
+    },
+    {
+        "categoryId": "2",
+        "categoryName": "Świat zwierząt",
+        "categorySrc": "animals"
+    },
+    {
+        "categoryId": "3",
+        "categoryName": "Historia",
+        "categorySrc": "history"
+    },
+    {
+        "categoryId": "4",
+        "categoryName": "Motoryzacja",
+        "categorySrc": "automotive"
+    }
+]
